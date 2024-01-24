@@ -46,4 +46,4 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
-  condition: succeeded()git add azure-pipelines.yml templates/build.yml
+  condition: succeeded()
